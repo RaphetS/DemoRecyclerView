@@ -1,0 +1,41 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.raphets.recyclerview.MainActivity" >
+
+    <item
+        android:id="@+id/add"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="add"/>
+    <item
+        android:id="@+id/delete"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="delete"/>
+    <item
+        android:id="@+id/listview"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="listview"/>
+    <item
+        android:id="@+id/gridView"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="gridView"/>
+    <item
+        android:id="@+id/horizonalListview"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="horizonalListview"/>
+    <item
+        android:id="@+id/horizonalGridview"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="horizonalGridview"/>
+    <item
+        android:id="@+id/staggerdView"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="瀑布流"/>
+
+</menu>
